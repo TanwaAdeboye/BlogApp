@@ -1,0 +1,32 @@
+.mainSection{
+    display: flex;
+    background-color: blue;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.imge{
+    width: 200px;
+   
+}
+.contentBox{
+    width: 40%;
+}
+.contentBox h1{
+    font-size: 2.5rem;
+}
+.contentBox p{
+    font-size: 1.3rem;
+    margin: 1em 0;
+}
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btn{
+    border: 2px solid;
+    border-radius: 2em;
+}

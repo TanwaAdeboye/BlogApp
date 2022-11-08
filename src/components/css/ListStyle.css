@@ -1,0 +1,46 @@
+
+
+:root{
+    --mainColor: blue;
+}
+
+header{
+    background-color: antiquewhite;
+
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    padding:.5em 0;
+
+}
+
+.active_link{
+    text-decoration: none;
+    color: rgba(165, 42, 42, 0.555);
+    /* color: var(--mainColor); */
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items:center;
+    width: 25rem;
+    height: max-content;
+}
+.deactivate{
+    color: #000;
+    text-decoration: none;
+}
